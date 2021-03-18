@@ -222,7 +222,7 @@ def order(a):
 
                 elif pul > Automat['HotWater']['Cost']:
                     x = pul - Automat['HotWater']['Cost']
-                    buyurtma = 'Issiq suv'
+                    buyurtma = 'issiq suv'
                     print(remainder(x, pul,buyurtma))
                     y = False
                 else:
