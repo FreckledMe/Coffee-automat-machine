@@ -51,7 +51,7 @@ def order(a):
                     Automat['Bank'][10]+=1
                     Automat['Bank'][5]+=1
                     Automat['Bank'][2]+=1
-                    print('Mana sizga Cappuccino')
+                    print('Mana sizga Cappuccino.Yoqimli ishtaha!')
                     print(retry())
                     y = False
 
@@ -94,7 +94,7 @@ def order(a):
                     Automat['Reserve']['Sugar']-=Automat['Latte']['Sugar']
                     Automat['Bank'][5]+=1
                     Automat['Bank'][2]+=2
-                    print('Mana sizga Latte')
+                    print('Mana sizga Latte.Yoqimli ishtaha!')
                     print(retry())
                     y=False
 
@@ -135,7 +135,7 @@ def order(a):
                     Automat['Reserve']['Milk']-=Automat['Americano']['Milk']
                     Automat['Reserve']['Sugar']-=Automat['Americano']['Sugar']
                     Automat['Bank'][10]+=2
-                    print('Mana sizga Americano')
+                    print('Mana sizga Americano.Yoqimli ishtaha!')
                     print(retry())
                     y=False
 
@@ -168,7 +168,7 @@ def order(a):
         elif a ==4:
             print('Siz Espresso tanladingiz!Espresso narxi 30 sum')
             print('Pul kiriting:\n')
-            pul=int(input());
+            pul=int(input())
             y=True
 
             while y:
@@ -178,7 +178,7 @@ def order(a):
                     Automat['Reserve']['Milk']-=Automat['Espresso']['Milk']
                     Automat['Reserve']['Sugar']-=Automat['Espresso']['Sugar']
                     Automat['Bank'][10]+=3
-                    print('Mana sizga Espresso')
+                    print('Mana sizga Espresso.Yoqimli ishtaha!')
                     print(retry())
                     y=False
 
@@ -216,7 +216,7 @@ def order(a):
                 if pul == Automat['HotWater']['Cost']:
                     Automat['Reserve']['Water']-=Automat['HotWater']['Water']
                     Automat['Bank'][5]+=1
-                    print('Mana sizga issiq suv')
+                    print('Mana sizga issiq suv.Yoqimli ishtaha!')
                     print(retry())
                     y=False
 
