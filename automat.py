@@ -216,7 +216,7 @@ def order(a):
                 if pul == Automat['HotWater']['Cost']:
                     Automat['Reserve']['Water']-=Automat['HotWater']['Water']
                     Automat['Bank'][5]+=1
-                    print('Mana sizga issiq suv.Yoqimli ishtaha!')
+                    print('Mana sizga issiq suv')
                     print(retry())
                     y=False
 
@@ -288,7 +288,7 @@ def remainder(k,pul,buyurtma):
             Automat['Bank'][1] -= 0
             k = 0
     if k == 0:
-        print('Mana qaytiminggiz':',j,'\n')
+        print('Qolgan pulingiz:',j,'\n')
         print(retry())
     else:
         while True:
